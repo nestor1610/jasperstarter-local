@@ -1,0 +1,8 @@
+* text=auto
+
+# Se ejecutan dentro del contenedor Linux: con CRLF el script falla ("/bin/sh^M")
+*.sh       text eol=lf
+Dockerfile text eol=lf
+
+# Se ejecutan en Windows
+*.cmd      text eol=crlf

@@ -1,0 +1,7 @@
+# Binarios de terceros (se descargan; ver LEEME.md)
+build/*.zip
+build/*.jar
+
+# Salidas de pruebas de reportes
+*.jasper
+*.pdf
